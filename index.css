@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@500&family=Space+Mono:wght@400;700&display=swap');
+
+:root{
+    --Inconsolata-stack: 'Inconsolata', monospace;
+    --Space-mono-stack: 'Space Mono', monospace;
+    --Montserrat-stack: 'Montserrat', sans-serif;
+
+    --gray1-color: #333333;
+    --gray2-color: #4F4F4F;
+    --white-color: #ffffff;
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    font-size: 1.125rem;
+    background-color: #eee;
+    padding: 1.25rem;
+}
+
+.container{
+    max-width: 1260px;
+    margin: 0  auto;
+}
+
+img{
+    width: 33.701rem;
+    height: auto;
+}
+
+
+
+/* main */
+.main{
+    width: inherit;
+    height: inherit;
+}
+
+.notFound-heading-wrapper{
+    width: 100%;
+    height: auto;
+    margin-bottom: 2.5rem;
+}
+
+.notFound-h1{
+    width: 133px;
+    height: 25px;
+    font-family: var(--Inconsolata-stack);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    letter-spacing: -0.08em;
+    line-height: 25px;
+    text-transform: uppercase;
+    text-align: left;
+    display: inline-flex;
+}
+
+.notFound-flex-wrapper{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4.375rem;
+}
+
+.notFound-item{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.notFound-item:first-child{
+    margin-right: 3rem;
+}
+
+.notFound-head-text{
+    max-width: 36.625rem;
+    height: auto;
+    font-family: var(--Space-mono-stack);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 4rem;
+    line-height: 95px;
+    letter-spacing: -0.03em;
+    color: var(--gray1-color);
+    margin-bottom: 2.5rem;
+}
+
+.notFound-p-text{
+    max-width: 23.813rem;
+    height: auto;
+    font-family: var(--Space-mono-stack);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 36px;
+    letter-spacing: -0.035em;
+    color: var(--gray2-color);
+    margin-bottom: 2.5rem;
+}
+
+.notFound-btn{
+    width: 13.5rem;
+    height: 4.25rem;
+    border: none;
+    outline: none;
+    background: var(--gray1-color);
+    color: var(--white-color);
+    font-family: var(--Space-mono-stack);
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.footer{
+    width: 100%;
+}
+
+.footer-text{
+    font-family: var(--Montserrat-stack);
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #BDBDBD;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.usern{
+    text-decoration: underline;
+    cursor: pointer;
+    color: var(--gray1-color);
+}
+
+
+
+
+@media only screen and (max-width: 1087px){
+    img{
+        width: 26.875rem;
+    }
+
+    .notFound-head-text{
+        font-size: 3rem;
+        line-height: 70px;
+        margin-bottom: 1.875rem;
+    }
+
+    .notFound-p-text{
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 1.875rem;
+    }
+}
+
+
+@media only screen and (max-width: 887px){
+    img{
+        width: 20rem;
+    }
+
+    .notFound-head-text{
+        font-size: 36px;
+        line-height: 50px;
+    }
+
+    .notFound-p-text{
+        font-size: 18px;
+        line-height: 28px;
+    }
+
+    .notFound-btn{
+        width: 11.25rem;
+        height: 3rem;
+        border: none;
+        outline: none;
+        background: var(--gray1-color);
+        color: var(--white-color);
+        font-family: var(--Space-mono-stack);
+        font-style: normal;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 21px;
+        letter-spacing: -0.035em;
+        text-transform: uppercase;
+    }
+    
+}
+
+
+@media only screen and (max-width: 687px){
+    .notFound-flex-wrapper{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .notFound-item{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .notFound-item:first-child{
+        margin-right: 0;
+        margin-bottom: 3rem;
+    }
+}
+
+
+@media only screen and (max-width: 425px){
+    img{
+        width: 100%;
+    }
+}
