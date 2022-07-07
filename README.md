@@ -35,6 +35,6 @@
 
 ## Contact
 
-- Website [your-website.com](https://{your-web-site-link})
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- Website [your-website.com](https://nkiriobasi.github.io/portfolio/)
+- GitHub [@your-username](https://github.com/Nkiriobasi)
+- Twitter [@your-twitter](https://twitter.com/NkiriObasi?s=09)
